@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scissors Paper and Rock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inconsolata&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Score-Area">
+      <h2>ROCK <br />PAPER<br />SCISSORS</h2>
+      <div class="computer-Score">
+        <div class="two">COMP SCORE</div>
+        <br />
+        <span class="comp-Score">0</span>
+      </div>
+
+      <div class="Score-card">
+        <div class="one">YOUR SCORE</div>
+        <br />
+        <span class="score">0</span>
+      </div>
+    </div>
+
+    <div class="playerSpot">
+      <div class="circle1">
+        <div class="spot1" id="rock">
+          <img src="stone.png" alt="not found" />
+        </div>
+      </div>
+
+      <img class="line1" src="images\Line 1 (1).png" alt="not found" />
+
+      <img class="line2" src="images\Line 3.png" alt="not found" />
+
+      <img class="line3" src="images\Line 2.png" alt="not found" />
+
+      <div class="circle2">
+        <div class="spot2" id="scissors">
+          <img src="scissors.png" alt="" />
+        </div>
+      </div>
+      <div class="circle3">
+        <div class="spot3" id="paper">
+          <img src="hand.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="matchScreen">
+      <div class="circle4">
+        <div class="spot4">
+          <img src="scissors.png" alt="" />
+        </div>
+      </div>
+
+      <div class="winner">
+        <h2 class="winner-text">RESULT</h2>
+        <div id="gameResult"></div>
+
+        <h4 id="text">AGAINST PC</h4>
+
+        <button class="playAgain">PLAY AGAIN</button>
+      </div>
+
+      <div class="circle5">
+        <div class="spot5">
+          <img src="hand.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="dialogBox">
+      <div class="dialogContent">
+        <h3>Game Rules</h3>
+        <ul>
+          <li class="point1">
+            Rock beats scissors, scissors beat paper, and paper beats rock.
+          </li>
+          <br />
+          <li class="point2">
+            Agree ahead of time whether you’ll count off “rock, paper, scissors,
+            shoot” or just “rock, paper, scissors.”
+          </li>
+          <br />
+          <li class="point3">
+            Use rock, paper, scissors to settle minor decisions or simply play
+            to pass the time
+          </li>
+          <br />
+          <li class="point4">
+            If both players lay down the same hand, each player lays down
+            another hand
+          </li>
+          <br />
+        </ul>
+
+        <button class="closeButton" onclick="closeDialog()">X</button>
+      </div>
+    </div>
+
+    <div class="rules_border">
+      <button class="rules" onclick="openDialog()">RULES</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

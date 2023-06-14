@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #8cc461;
+}
+
+.Score-Area {
+  width: 800px;
+  height: 158px;
+  position: absolute;
+  top: 62px;
+  left: 240px;
+  border-radius: 13px;
+  border: 2px solid #ffffff;
+}
+
+.Score-Area h2 {
+  position: absolute;
+  left: 18px;
+  top: 16px;
+  color: #ffffff;
+  width: 135px;
+  height: 37px;
+  font-weight: 600;
+  line-height: 47px;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  font-family: "Roboto", sans-serif;
+}
+.Score-card {
+  width: 139px;
+  height: 128px;
+  position: absolute;
+  top: 15px;
+  left: 641px;
+  border-radius: 9px;
+  background-color: #ffffff;
+}
+
+.computer-Score {
+  width: 139px;
+  height: 128px;
+  position: absolute;
+  top: 15px;
+  left: 473px;
+  border-radius: 9px;
+  background-color: #ffffff;
+}
+
+.Score-card span {
+  background-color: #ffffff;
+}
+
+.computer-Score span {
+  background-color: #ffffff;
+}
+
+.Score-card .one {
+  width: 50px;
+  height: 16px;
+  top: 7px;
+  left: 686px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: Top;
+  letter-spacing: 10%;
+  color: #656565;
+}
+
+.computer-Score .two {
+  width: 50px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: Top;
+  letter-spacing: 10%;
+  color: #656565;
+}
+
+.one {
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.two {
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.computer-Score .comp-Score {
+  width: 79px;
+  height: 63px;
+  position: absolute;
+  top: 51px;
+  left: 29px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 80px;
+  align-items: center;
+  margin-left: 23px;
+}
+
+.score {
+  width: 79px;
+  height: 63px;
+  position: absolute;
+  top: 51px;
+  left: 29px;
+  text-align: center;
+  font-size: 68px;
+  line-height: 80px;
+  font-weight: bold;
+  align-items: center;
+  vertical-align: top;
+  font-family: "Roboto", sans-serif;
+}
+
+.circle1 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 16px solid rgba(0, 116, 182, 1);
+
+  position: absolute;
+  top: 350px;
+  left: 492px;
+}
+
+.spot1 {
+  width: 60px;
+  height: 53.5px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spot1 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+.circle2 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 352px;
+  left: 732px;
+  border: 16px solid rgba(189, 0, 255, 1);
+}
+
+.spot2 {
+  width: 37px;
+  height: 53.5px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spot2 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+.circle3 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 538px;
+  left: 614px;
+  border: 16px solid rgba(255, 169, 67, 1);
+}
+.spot3 {
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spot3 img {
+  max-width: 52px;
+  max-height: 72px;
+  background-color: white;
+}
+
+.line1 {
+  position: absolute;
+  top: 393px;
+  left: 600px;
+  font-size: large;
+}
+.line2 {
+  position: absolute;
+  top: 447px;
+  left: 580px;
+}
+.line3 {
+  position: absolute;
+  top: 450px;
+  left: 696px;
+}
+
+.rules_border {
+  border: 2px solid white;
+  padding: 10px;
+  width: 119px;
+  height: 40px;
+  position: absolute;
+  top: 675px;
+  left: 1636px;
+  border-radius: 10px;
+}
+
+.rules {
+  width: 72px;
+  height: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 10%;
+  vertical-align: top;
+  align-items: left;
+  color: #ffffff;
+  border: none;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.rules_border {
+  width: 119px;
+  height: 40px;
+  position: absolute;
+  top: 805px;
+  left: 1636px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+#dialogBox {
+  background-color: rgba(0, 68, 41, 1);
+  width: 278px;
+  height: 325px;
+  position: absolute;
+  top: 330px;
+  left: 1290px;
+  padding: 11px;
+  border: 7px solid rgba(255, 255, 255, 1);
+
+  border-radius: 13px;
+}
+
+.dialogContent {
+  color: white;
+  background-color: rgba(0, 68, 41, 1);
+}
+
+.dialogContent h3 {
+  width: 156px;
+  height: 27px;
+  position: absolute;
+  top: 25px;
+  left: 61px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 34px;
+  background-color: rgba(0, 68, 41, 1);
+}
+
+.dialogContent .point1{
+  width:211px;
+  height:27px;
+  position:absolute;
+  top:80px;
+  left:46px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: left;
+vertical-align: top;
+background-color:rgba(0, 68, 41, 1) ;
+}
+
+.dialogContent .point2{
+  width:216px;
+  height:43px;
+  position: absolute;
+  top:125px;
+  left:46px;
+  font-family:"Roboto", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: left;
+  vertical-align: top;
+  background-color:rgba(0, 68, 41, 1) ; ;
+
+
+}
+
+.dialogContent .point3{
+  width:216px;
+  height:43px;
+  position: absolute;
+  top:170px;
+  left:46px;
+  font-family:"Roboto", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: left;
+  vertical-align: top;
+  background-color:rgba(0, 68, 41, 1) ; 
+
+}
+
+.dialogContent .point4{
+  width:216px;
+  height:43px;
+  position: absolute;
+  top: 244px;
+  left:46px;
+  font-family:"Roboto", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: left;
+  vertical-align: top;
+  background-color:rgba(0, 68, 41, 1) ; 
+
+
+}
+ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+
+ul {
+  background-color: rgba(0, 68, 41, 1);
+}
+
+.points {
+  margin-bottom: 10px;
+  background-color: rgba(0, 68, 41, 1);
+}
+
+.close{
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:300px;
+  left:1527px;
+  background-color: rgba(255,0,0,1);
+  border: 5px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  z-index: 1;
+
+  
+
+}
+
+.closeButton {
+  background-color: white;
+  color: green;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+
+
+ 
+}
+
+.circle4 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 415px;
+  left: 323px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 16px solid rgba(189, 0, 255, 1);
+}
+
+.spot4 {
+  width: 37px;
+  height: 53.5px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spot4 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+.text {
+  width: 168px;
+  height: 31px;
+  position: absolute;
+  top: 501px;
+  left: 573px;
+}
+
+.playAgain {
+  width: 174px;
+  height: 44px;
+  position: absolute;
+  top: 520px;
+  left: 570px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.circle5 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 449px;
+  left: 881px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 16px solid rgba(255, 169, 67, 1);
+}
+.spot5 {
+  width: 37px;
+  height: 53.5px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spot5 img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+.matchScreen {
+  visibility: hidden;
+}
+.playerSpot {
+  visibility: visible;
+}
+
+.winner-text {
+  width: 183px;
+  height: 36px;
+  position: absolute;
+  top: 454px;
+  left: 563px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 46px;
+  letter-spacing: 10%;
+  align-items: Center;
+  vertical-align: top;
+  text-align: center;
+}
+#text {
+  width: 168px;
+  height: 31px;
+  position: absolute;
+  top: 495px;
+  left: 573px;
+  text-align: center;
+}
